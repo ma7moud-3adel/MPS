@@ -7406,7 +7406,7 @@ span.text {
 	}
 }
 
-.btn-wrapper>a::before {
+.pricing-section .arrow>a::before {
 	content: "\f101";
 	font-family: "Font Awesome 5 Free";
 	color: #b3b342;

@@ -7405,3 +7405,24 @@ span.text {
 		padding: 6px 15px;
 	}
 }
+
+.btn-wrapper>a::before {
+	content: "\f101";
+	font-family: "Font Awesome 5 Free";
+	color: #b3b342;
+	margin-right: 10px;
+	animation: move 1s infinite;
+	position: relative;
+}
+
+@keyframes move {
+
+	0%,
+	100% {
+		left: 0;
+	}
+
+	50% {
+		left: 5px;
+	}
+}

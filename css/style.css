@@ -7536,7 +7536,7 @@ span.text {
 .pricing-section .arrow>a::before {
 	content: "\f101";
 	font-family: "Font Awesome 5 Free";
-	color: #b3b342;
+	color: #291fbc;
 	margin-right: 10px;
 	animation: move 1s infinite;
 	position: relative;

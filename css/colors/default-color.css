@@ -473,15 +473,15 @@ a {
 
 .pricing-plans-three .plan-cost,
 .pricing-plans-three .plan-validity {
-	color: #b3b342
+	color: #291fbc
 }
 
 .pricing-plans-three .pricing-feature-list li::before {
-	color: #b3b342;
+	color: #291fbc;
 }
 
 .pricing-plans-three .price-card.popular {
-	background: linear-gradient(-135deg, #18181a 0%, #000000 100%);
+	background: linear-gradient(-135deg, #4688eb 0%, #291fbc 100%);
 	color: #ffffff;
 }
 
@@ -491,7 +491,7 @@ a {
 
 .pricing-plans-three .popular .plan-cost,
 .pricing-plans-three .popular .plan-validity {
-	color: #b3b342;
+	color: #173147;
 }
 
 .pricing-plans-three .popular .pricing-feature-list {
@@ -499,7 +499,7 @@ a {
 }
 
 .pricing-plans-three .popular .pricing-feature-list li::before {
-	color: #b3b342;
+	color: #173147;
 }
 
 .pricing-plans-three .popular .btn-primary {

@@ -7533,6 +7533,27 @@ span.text {
 	max-width: 100%;
 }
 
+
+.service-section .layer::before {
+	content: "";
+	position: absolute;
+	top: 15px;
+	right: -20%;
+	width: 120px;
+	height: 150px;
+	background-image: url(../images/layer.png);
+}
+
+.service-section .layer-flip::after {
+	content: "";
+	position: absolute;
+	top: 50;
+	left: -20px;
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/layer-flip.png);
+}
+
 .pricing-section .arrow>a::before {
 	content: "\f101";
 	font-family: "Font Awesome 5 Free";

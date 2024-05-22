@@ -316,8 +316,8 @@ p:not(:empty) {
 }
 
 #preloader #status .d-loader {
-	width: 90px;
-	height: 90px;
+	width: 250px;
+	height: 250px;
 	position: relative;
 	margin: 100px auto;
 }
@@ -925,19 +925,26 @@ textarea.form-control {
 }
 
 .logo-container {
-	padding: 25px 0px 25px;
+	padding: 25px 0px;
+	width: 99px;
+	height: 99px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .menu-fixed .logo-container {
-	padding: 15px 0px 15px;
+	padding: 15px 0px;
 }
 
 .logo {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .logo img {
-	max-height: 50px;
+	height: 100%;
 }
 
 .logo .logo-dark {
@@ -7388,7 +7395,7 @@ span.text {
 	}
 
 	#master-head.menu-fixed {
-		height: 88px;
+		height: 100px;
 		padding: 0px !important;
 		margin: 0px !important;
 	}

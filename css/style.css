@@ -7413,6 +7413,66 @@ span.text {
 	}
 }
 
+.banner {
+	padding: 50px 50px;
+	margin-top: 25px;
+	border-radius: 20px;
+	background-image: url(../images/curve.webp);
+}
+
+.banner h2 {
+	color: white;
+	line-height: 1.6;
+}
+
+.banner p {
+	color: white;
+	line-height: 1.8;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.banner .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner .col-md-3 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.banner .btn {
+	width: 300px;
+	height: 75px;
+	font-size: 17px;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+
+@media (max-width:1124px) {
+	.banner .btn {
+		width: 250px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width:768px) {
+	.banner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.banner .col-md-3 {
+		justify-content: center;
+		margin-top: 30px;
+	}
+}
+
 .details {
 	margin: 50px 0 75px;
 }

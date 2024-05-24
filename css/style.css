@@ -6215,6 +6215,12 @@ blockquote::before {
     margin-left: 0;
     margin-top: 15px;
   }
+  .modal-footer > .btn + .btn {
+    margin-top: 0px;
+  }
+  .modal-footer {
+    justify-content: space-around;
+  }
 
   .text-center .btn-wrapper > .btn + .btn,
   .text-center.btn-wrapper > .btn + .btn {
@@ -7520,6 +7526,13 @@ span.text {
     justify-content: center;
   }
   #services .f {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .main-footer .row {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

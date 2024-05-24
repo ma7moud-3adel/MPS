@@ -29,6 +29,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+*:not(.testimonial-section i, .site-footer i) {
   font-family: "Tajawal", sans-serif !important;
 }
 

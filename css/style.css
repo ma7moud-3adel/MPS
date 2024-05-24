@@ -7574,7 +7574,7 @@ span.text {
   max-width: 100%;
 }
 
-.service-section .layer-flip::after {
+/* .service-section .layer-flip::after {
   content: "";
   position: absolute;
   top: 50;
@@ -7582,7 +7582,7 @@ span.text {
   width: 150px;
   height: 150px;
   background-image: url(../images/layer-flip.png);
-}
+} */
 
 .pricing-section .arrow > a::before {
   content: "\f101";

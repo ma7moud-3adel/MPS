@@ -41,7 +41,6 @@
       rel="stylesheet"
       type="text/css"
       id="rtl-theme-default"
-      disabled="disabled"
     />
     <link
       href="css/colors/default-color.css"
@@ -49,6 +48,76 @@
       type="text/css"
       id="theme-color"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .tajawal-extralight {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      .tajawal-light {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .tajawal-regular {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .tajawal-medium {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .tajawal-bold {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .tajawal-extrabold {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+
+      .tajawal-black {
+        font-family: "Tajawal", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      .details ul li img {
+        margin-right: 0;
+        margin-left: 10px;
+      }
+      .pricing-section .arrow > a::before {
+        content: "\f100";
+        font-family: "Font Awesome 5 Free";
+        margin-left: 10px;
+        animation: move 1s infinite;
+        position: relative;
+      }
+      @keyframes move {
+        0%,
+        100% {
+          right: 0;
+        }
+
+        50% {
+          right: 5px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -58,7 +127,7 @@
       <div id="preloader">
         <div id="status">
           <div class="d-loader">
-            <img src="images/pre.jpg" width="100%" alt="DCode" />
+            <img src="images/logo'.jpg" width="100%" alt="DCode" />
           </div>
         </div>
       </div>
@@ -71,7 +140,7 @@
         <div class="container-fluid">
           <div id="main-logo" class="logo-container">
             <a class="logo" href="#">
-              <img src="images/logo'.png" class="logo-dark" />
+              <img src="images/logo'.jpg" class="logo-dark" />
               <img src="images/logo.png" class="logo-light" />
             </a>
           </div>
@@ -85,22 +154,22 @@
           <div id="navigation" class="nav navbar-nav navbar-main">
             <ul id="main-menu" class="menu-primary">
               <li class="menu-item active">
-                <a href="#">Home</a>
+                <a href="#">الرئيسية</a>
               </li>
               <li class="menu-item">
-                <a href="#about">Company</a>
+                <a href="#about">عن الشركة</a>
               </li>
               <li class="menu-item">
-                <a href="#services">Services</a>
+                <a href="#services">الخدمات</a>
               </li>
               <li class="menu-item">
-                <a href="#pricing">Pricing</a>
+                <a href="#pricing">الأسعار</a>
               </li>
               <li class="menu-item">
-                <a href="#EmailInput">Contact Us</a>
+                <a href="#EmailInput">تواصل معنا</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a href="index-Ar.html">Arabic</a>
+                <a href="index.html">English</a>
               </li>
             </ul>
           </div>
@@ -121,8 +190,8 @@
                   data-wow-delay="0.2s"
                 >
                   <h1>
-                    Welcome To <span style="color: #291fbc">MPS</span> <br />
-                    landing page.
+                    أهلا بكم في <span style="color: #291fbc">MPS</span> <br />
+                    الصفحة الرئيسية.
                   </h1>
                 </div>
                 <div class="text-wrapper wow fadeInRight" data-wow-delay="0.4s">
@@ -138,7 +207,7 @@
                 </div>
                 <div class="btn-wrapper wow fadeInRight" data-wow-delay="0.5s">
                   <a class="btn btn-primary btn-light" href="#about"
-                    >Get Started Now</a
+                    >أبدء الأستخدام الأن</a
                   >
                 </div>
               </div>
@@ -164,7 +233,7 @@
             <div class="row clearfix justify-content-center">
               <div class="col-lg-8">
                 <div class="heading-wrapper with-separator text-center">
-                  <h2 class="h2">About <span> MPS</span></h2>
+                  <h2 class="h2">كل شيئ عن <span> MPS</span></h2>
                   <div class="lead-text">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -190,7 +259,7 @@
                     animation-name: fadeInLeft;
                   "
                 >
-                  <h1>What IS <span> " M P S "</span> ?</h1>
+                  <h1>ماذا عن <span> " M P S "</span> ؟</h1>
                 </div>
                 <div
                   class="text-wrapper wow fadeInLeft"
@@ -217,7 +286,7 @@
                     animation-name: fadeInUp;
                   "
                 >
-                  <a class="btn btn-primary" href="#pricing">Get started</a>
+                  <a class="btn btn-primary" href="#pricing">أبدء الأستخدام</a>
                   <!-- Button trigger modal -->
                   <button
                     type="button"
@@ -225,7 +294,7 @@
                     data-toggle="modal"
                     data-target="#exampleModal"
                   >
-                    Watch Video
+                    شاهد الفيديو
                   </button>
 
                   <!-- Modal -->
@@ -308,11 +377,13 @@
             <div class="banner bg-primary">
               <div class="row">
                 <div class="col-lg-7 col-sm-12">
-                  <h2 class="h2">Customized for the most industries</h2>
+                  <h2 class="h2">
+                    نظام متكامل قابل للتخصيص ليناسب مختلف المجالات
+                  </h2>
                   <p>
-                    An Easy-to-use Business Management Software as it is built
-                    for both accountants and business owners with no accounting
-                    knowledge.
+                    واجهة سهلة الاستخدام بميزات متعددة ، لا حاجة لامتلاك معرفة
+                    عميقة في طرق المحاسبة أو نظم تخطيط الموارد المؤسسية لإتقان
+                    العمل
                   </p>
                 </div>
                 <div class="col-lg-4 col-sm-12 text-center">
@@ -322,7 +393,7 @@
                     data-toggle="modal"
                     data-target="#exampleFree"
                   >
-                    Get Started for free
+                    أبدء الاستخدام مجاناً
                   </button>
 
                   <div
@@ -341,8 +412,8 @@
                             <div class="form-wrapper border border-dark">
                               <div class="form-header">
                                 <h4>
-                                  Have any query?
-                                  <span style="color: #291fbc">Let’s Talk</span>
+                                  هل لديك أي استفسار؟
+                                  <span style="color: #291fbc">لنتحدث</span>
                                 </h4>
                               </div>
                               <form>
@@ -351,7 +422,7 @@
                                     type="text"
                                     class="form-control"
                                     id="FullName"
-                                    placeholder="Your Full Name"
+                                    placeholder="الاسم بالكامل"
                                     required=""
                                   />
                                 </div>
@@ -360,7 +431,7 @@
                                     type="email"
                                     class="form-control"
                                     id="YourEmail"
-                                    placeholder="Your Email Address"
+                                    placeholder="بريدك الإلكتروني"
                                     required=""
                                   />
                                 </div>
@@ -369,7 +440,7 @@
                                     type="tel"
                                     class="form-control"
                                     id="YourPhone"
-                                    placeholder="Your Phone Number"
+                                    placeholder="رقم هاتفك"
                                     required=""
                                   />
                                 </div>
@@ -378,8 +449,7 @@
                                     type="url"
                                     class="form-control"
                                     id="YourWebsite"
-                                    placeholder="Your Website URLs"
-                                    required=""
+                                    placeholder="موقعك الإلكتروني"
                                   />
                                 </div>
                                 <div class="form-group">
@@ -387,7 +457,7 @@
                                     type="text"
                                     class="form-control"
                                     id="NumberOfLearners"
-                                    placeholder="Number of Learners"
+                                    placeholder="عدد الدارسين"
                                     required=""
                                   />
                                 </div>
@@ -395,7 +465,7 @@
                                   <input
                                     type="submit"
                                     class="btn btn-primary btn-full"
-                                    value="submit your enquiry"
+                                    value="أرسل استفسارك"
                                   />
                                 </div>
                               </form>
@@ -416,7 +486,9 @@
             <div class="row clearfix justify-content-center">
               <div class="col-lg-8">
                 <div class="heading-wrapper with-separator text-center">
-                  <h2 class="h2">MPS Provides <span>Premium Modules</span></h2>
+                  <h2 class="h2">
+                    <bdi>MPS</bdi> توفر لك <span>وحدات متميزة</span>
+                  </h2>
                   <div class="lead-text">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -432,39 +504,40 @@
             <!--* End Row -->
             <div class="row details f gap-3">
               <div class="col-lg-6 col-md-12">
-                <h2 class="h2">Management Software</h2>
+                <h2 class="h2">برنامج إدارة شامل</h2>
                 <p>
-                  Cover sales from professional invoicing to estimates and
-                  quotations. Track client payments, installments, and set up
-                  insurance coverage. Ease client payments by offering multiple
-                  payment gateways including online payment. Sell in-person and
-                  on-the-go, with cloud POS. Set commission-based sales targets
-                  and track your teams’ performance.
+                  أصدر فواتيرك الإلكترونية والضريبية وعروض الأسعار بقوالب جاهزة
+                  قابلة للتخصيص حسب احتياجاتك، وحدد العروض على منتجاتك أو
+                  خدماتك، إلى جانب إمكانية إدارة التأمينات ومدفوعات العملاء مع
+                  خيارات دفع متعددة؛ أدِر عمليات البيع من خلال نقاط البيع أو
+                  واجهة التسوق عبر الإنترنت، بما في ذلك تحديد مبيعاتك المستهدفة
+                  وعمولات ممثلي المبيعات لديك، مع تقارير تفصيلية لمتابعة العملية
+                  بأكملها.
                 </p>
                 <ul>
                   <li class="d-flex">
                     <img src="images/d-icon-1.png" alt="" />
-                    <h3>Invoicing & Quotations</h3>
+                    <h3>الفواتير وعروض الأسعار</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon2.png" alt="" />
-                    <h3>Point of Sale</h3>
+                    <h3>نقاط البيع</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon3.png" alt="" />
-                    <h3>Offers & Price List</h3>
+                    <h3>العروض وقوائم الأسعار</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon4.png" alt="" />
-                    <h3>Installments Management</h3>
+                    <h3>إدارة الاقساط</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon5.png" alt="" />
-                    <h3>Sales Targets & Commissions</h3>
+                    <h3>العمولات والمبيعات المستهدفة</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon6.png" alt="" />
-                    <h3>Insurance Management</h3>
+                    <h3>إدارة التأمينات</h3>
                   </li>
                 </ul>
               </div>
@@ -784,15 +857,15 @@
                 <ul>
                   <li class="d-flex">
                     <img src="images/d-icon7.png" alt="" />
-                    <h3>Work Orders</h3>
+                    <h3>أوامر الشغل</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon8.png" alt="" />
-                    <h3>Bookings Management</h3>
+                    <h3>إدارة الحجوزات</h3>
                   </li>
                   <li class="d-flex">
                     <img src="images/d-icon9.png" alt="" />
-                    <h3>Time Tracking</h3>
+                    <h3>تتبع الوقت</h3>
                   </li>
                 </ul>
               </div>
@@ -806,13 +879,12 @@
               <div class="col-lg-8">
                 <div class="heading-wrapper">
                   <h2 class="h1">
-                    Happy Clients <span style="color: #291fbc">Feedback</span>
+                    <span style="color: #291fbc">تعليقات وآراء</span> عملائنا
                   </h2>
                   <div class="lead-text">
                     <p>
-                      Our customers' supportive opinions always make us strive
-                      for the best in order to provide more and better services
-                      to make it easier for you to manage your practical affairs
+                      آراء عملائنا الداعمة دائما تجعلنا نسعى للأفضل من أجل تقديم
+                      خدمات أكثر و افضل لتسهل عليك إدارة شؤونك العملية
                     </p>
                   </div>
                 </div>
@@ -1099,7 +1171,7 @@
             <div class="row align-items-center clearfix">
               <div class="col-lg-4">
                 <div class="heading-wrapper with-separator">
-                  <h2 class="h1" style="color: #173147">Pricing Plans</h2>
+                  <h2 class="h1" style="color: #173147">خطط الأسعار</h2>
                 </div>
                 <!--* End Heading -->
                 <div class="text-wrapper">
@@ -1113,11 +1185,8 @@
                   </p>
                 </div>
                 <div class="btn-wrapper arrow">
-                  <a
-                    href="#FullName"
-                    class="btn link-btn"
-                    style="color: #173147"
-                    >Try Free Trial.</a
+                  <a href="#form" class="btn link-btn" style="color: #173147"
+                    >تمتع بتجربة مجانية .</a
                   >
                 </div>
               </div>
@@ -1222,18 +1291,18 @@
                       </div>
                     </div>
                     <div class="newsletter-form style-two">
-                      <h3>Subscribe to our newsletter</h3>
+                      <h3>شاركنا الأن وتمتع بالتحديثات</h3>
                       <form method="post">
                         <div class="form-group">
                           <input
                             type="email"
                             class="form-control"
                             id="EmailInput"
-                            placeholder="Enter email address"
+                            placeholder="أكتب عنوان بريدك الالكتروني"
                             required
                           />
                         </div>
-                        <button type="submit">Subscribe Now!</button>
+                        <button type="submit">اشترك الأن !</button>
                       </form>
                     </div>
                     <div class="social-media-links">
@@ -1277,8 +1346,8 @@
                   <div class="form-wrapper bg-dark border border-dark">
                     <div class="form-header">
                       <h4>
-                        Have any query?
-                        <span style="color: #291fbc">Let’s Talk</span>
+                        هل لديك أي استفسار؟
+                        <span id="form" style="color: #291fbc">لنتحدث</span>
                       </h4>
                     </div>
                     <form>
@@ -1287,7 +1356,7 @@
                           type="text"
                           class="form-control"
                           id="FullName"
-                          placeholder="Your Full Name"
+                          placeholder="الاسم بالكامل"
                           required=""
                         />
                       </div>
@@ -1296,7 +1365,7 @@
                           type="email"
                           class="form-control"
                           id="YourEmail"
-                          placeholder="Your Email Address"
+                          placeholder="بريدك الالكتروني"
                           required=""
                         />
                       </div>
@@ -1305,7 +1374,7 @@
                           type="tel"
                           class="form-control"
                           id="YourPhone"
-                          placeholder="Your Phone Number"
+                          placeholder="رقم هاتفك"
                           required=""
                         />
                       </div>
@@ -1314,8 +1383,7 @@
                           type="url"
                           class="form-control"
                           id="YourWebsite"
-                          placeholder="Your Website URLs"
-                          required=""
+                          placeholder="موقعك الالكتروني"
                         />
                       </div>
                       <div class="form-group">
@@ -1323,7 +1391,7 @@
                           type="text"
                           class="form-control"
                           id="NumberOfLearners"
-                          placeholder="Number of Learners"
+                          placeholder="عدد الدارسين"
                           required=""
                         />
                       </div>
@@ -1331,7 +1399,7 @@
                         <input
                           type="submit"
                           class="btn btn-primary btn-full"
-                          value="submit your enquiry"
+                          value="أرسل استفسارك"
                         />
                       </div>
                     </form>

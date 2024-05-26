@@ -7564,6 +7564,16 @@ span.text {
   position: relative;
   left: 0;
   margin-right: 5px;
+  margin-left: 5px;
+}
+@media (max-width: 387px) {
+  .page-wrapper .row .col-lg-6.col-md-12 form label {
+    display: block;
+  }
+  .page-wrapper .row .col-lg-6.col-md-12 form .two,
+  .page-wrapper .row .col-lg-6.col-md-12 form .two.t {
+    margin-left: 0;
+  }
 }
 
 .details {

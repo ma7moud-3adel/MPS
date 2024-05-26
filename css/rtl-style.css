@@ -404,3 +404,20 @@ blockquote::before {
     transform: translateX(-120%);
   }
 }
+.page-wrapper .row .col-lg-6.col-md-12 form .two {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 22px;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form .two.t {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form label::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  color: #036ee4;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+}

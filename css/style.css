@@ -7541,6 +7541,31 @@ span.text {
   }
 }
 
+.page-wrapper .row .col-lg-6.col-md-12 .text-wrapper span {
+  color: #036ee4;
+  font-weight: bold;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form legend {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form .two {
+  display: inline-block;
+  margin-left: 15px;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form .two.t {
+  margin-left: 17px;
+}
+.page-wrapper .row .col-lg-6.col-md-12 form label::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  color: #036ee4;
+  position: relative;
+  left: 0;
+  margin-right: 5px;
+}
+
 .details {
   margin: 50px 0 75px;
 }

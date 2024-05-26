@@ -422,7 +422,7 @@ blockquote::before {
   margin-left: 5px;
   margin-right: 5px;
 }
-@media (max-width: 387px) {
+@media (max-width: 504px) {
   .page-wrapper .row .col-lg-6.col-md-12 form label {
     display: block;
   }

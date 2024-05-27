@@ -7681,3 +7681,7 @@ span.text {
     left: 5px;
   }
 }
+
+.pricing-section .desc p {
+  font-size: x-small;
+}
